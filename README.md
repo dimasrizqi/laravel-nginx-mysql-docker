@@ -15,7 +15,7 @@ To run this project you need to have docker and docker-compose installed in your
 
 Take the following steps:
 
-clone this repository by executing the following command: 
+clone this repository by executing the following command 
 git clone https://github.com/jjuanrivvera99/laravel-nginx-mysql-docker
 cd laravel-nginx-mysql-docker'
 docker-compose up -d
