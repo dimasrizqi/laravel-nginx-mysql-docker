@@ -18,12 +18,19 @@ Take the following steps:
 clone this repository by executing the following command 
 
 git clone https://github.com/jjuanrivvera99/laravel-nginx-mysql-docker
+
 cd laravel-nginx-mysql-docker
+
 docker-compose up -d
+
 sudo chown -R 1000:1000 *
+
 docker-compose exec app setup
+
 docker-compose exec app permissions
+
 docker-compose exec app fix
+
 docker-compose exec app php artisan migrate
 
 Enable auth (Laravel 6):
