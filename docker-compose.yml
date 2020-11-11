@@ -78,7 +78,7 @@ services:
       - "53306:3306"
     environment:
       MYSQL_DATABASE: laravel
-      MYSQL_ROOT_PASSWORD: futami122!@#
+      MYSQL_ROOT_PASSWORD: GRLJXBdS6V6zEtRDYFRRjwF6cm4hgWBr
     volumes:
       - mysql-data:/var/lib/mysql/
       - ./docker/mysql/my.cnf:/etc/mysql/my.cnf
