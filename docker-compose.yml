@@ -75,10 +75,10 @@ services:
     restart: always
     tty: true
     ports:
-      - "3306:3306"
+      - "53306:3306"
     environment:
       MYSQL_DATABASE: laravel
-      MYSQL_ROOT_PASSWORD: example
+      MYSQL_ROOT_PASSWORD: futami122!@#
     volumes:
       - mysql-data:/var/lib/mysql/
       - ./docker/mysql/my.cnf:/etc/mysql/my.cnf
